@@ -1,11 +1,11 @@
-import * as dotenv from "dotenv";
+import dotenv from "dotenv";
+dotenv.config();
 import express from "express";
 import config from "config";
 import connectToDb, { Database } from "./utils/connectToDb";
 import log from "./utils/logger";
 import router from "./routes";
 import deserializeUser from "./middleware/deserializeUser";
-dotenv.config();
 
 const app = express();
 app.use(express.json());
