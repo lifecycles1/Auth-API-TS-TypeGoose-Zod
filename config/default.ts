@@ -8,7 +8,7 @@ export default {
   refreshTokenPublicKey: process.env.REFRESH_PUBLIC_KEY,
   smtp: {
     user: "jkninfrc42ey5pwx@ethereal.email",
-    pass: process.env.GMAIL_APP_PASSWORD,
+    pass: process.env.ETHEREAL_MAIL_TEST_PASS,
     host: "smtp.ethereal.email",
     port: 587,
     secure: false,
